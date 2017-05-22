@@ -3,7 +3,7 @@
   "description": "图片类库",
   "minimum-stability": "dev",
   "keywords": [
-    "wechatSDK"
+    "image"
   ],
   "config": {
     "process-timeout": 1800
