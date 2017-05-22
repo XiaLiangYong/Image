@@ -1,0 +1,22 @@
+{
+  "name": "alibeibei/image",
+  "description": "图片类库",
+  "minimum-stability": "dev",
+  "keywords": [
+    "wechatSDK"
+  ],
+  "config": {
+    "process-timeout": 1800
+  },
+  "authors": [
+    {
+      "name": "alibeibei",
+      "email": "1939612669@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "image\\": "src"
+    }
+  }
+}
