@@ -1,7 +1,7 @@
 <?php
 namespace image\driver;
 
-use imgae\Image;
+use image\Image;
 
 class Gd
 {

@@ -1,5 +1,5 @@
 <?php
-namespace imgae;
+namespace image;
 /**
  * Created by PhpStorm.
  * User: xialiangyong
@@ -56,7 +56,7 @@ class Image
         }
 
         /* 引入处理库，实例化图片处理对象 */
-        $class = "Think\\Image\\Driver\\{$class}";
+        $class = "image\\driver\\{$class}";
         $this->img = new $class($imgname);
     }
 
